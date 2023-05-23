@@ -9,22 +9,6 @@ namespace NETGraphQLSample
 			//See article: https://chillicream.com/docs/hotchocolate/v13
 			//HotChocolate.AspNetCore is required package
 
-			int? xx = null;
-			xx = 10;
-
-			string str = null;
-
-			if (xx != null)
-			{
-				Console.WriteLine($"xx: {xx}");
-			}
-
-			if (str != null)
-			{
-				Console.WriteLine($"str: {str}");
-			}
-
-
 			var builder = WebApplication.CreateBuilder(args);
 
 			builder.Services
